@@ -114,6 +114,7 @@ h1 {
 @media (max-width: 700px)  {
 
     .newsletter {
+        width: 100%;
         margin: 0.2rem 0.5rem;
         padding: 0;
         border: none;
@@ -130,8 +131,8 @@ h1 {
     
     .info {
         display: flex;
-        border-top: 2px solid black;
-        border-bottom: 2px solid black;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
     }
     
     .info p {
@@ -179,12 +180,11 @@ h1 {
     
     .img__rightside {
         width: 80%;
-        margin: auto;
         
     }
     
     .txt__rightside {
-        margin-left: 0%;
+        margin-left: 3%;
     }
     
     .leftside__titulo {
@@ -192,9 +192,9 @@ h1 {
         font-size: 3rem;
         line-height: 4rem;
         display: flex;
-        border-top: 2px solid black;
-        border-bottom: 2px solid black;
-        padding-bottom: 2%;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        padding-bottom: 1.5%;
     }
     
     .leftside__texto {
